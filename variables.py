@@ -23,7 +23,7 @@
 #       créer une variable et lui affecter une valeur
 
 # ... Écrivez votre code ici ...
-
+ma_variable = 5
 
 
 print(ma_variable)
@@ -33,14 +33,14 @@ print(ma_variable)
 # Exercice 1.2
 #
 #   Le code ci-dessous définit un variable contenant la chaîne de caractères "Salut !". Pour le moment rien ne s'affiche. Afficher la variable en utilisant la fonction print().
-#
+ 
 #   Savoirs-faires :
 #       afficher des variables
 
-# ... Écrivez votre code ici ...
+# print 
 
 texte = "Salut !"
-
+print(texte)
 
 
 # Exercice 1.3
@@ -54,6 +54,7 @@ texte = "Salut !"
 # ... Écrivez votre code ici ...
 
 nombre = 2 # ne pas toucher à cette ligne !
+nombre = nombre + 1 
 
 
 
@@ -73,6 +74,10 @@ print(nombre)
 # ... Écrivez votre code ici ...
 
 
+nombre_de_clients=0
+nombre_de_clients = nombre_de_clients +2
+nombre_de_clients = nombre_de_clients -1 
+print(nombre_de_clients)
 
 
 
